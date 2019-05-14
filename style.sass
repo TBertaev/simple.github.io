@@ -1,0 +1,138 @@
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+nav
+    position: sticky
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 7%
+    height: 60px
+    background-color: #e9e9e9
+    top: 0
+    left: 0
+    z-index: 9999
+    .menu
+        display: flex
+        align-items: center
+        justify-content: space-around
+        list-style: none
+        li
+            margin-right: 25px 
+            a
+                text-decoration: none
+                text-transform: uppercase
+                color: #191919
+                font-weight: bold
+                font-size: 12px
+                &:hover
+                    color: #1ecbc6
+header
+    background-color: #e9e9e9
+    display: flex
+    justify-content: flex-end
+    .header-text
+        margin-top: 160px
+        margin-right: 120px
+        margin-bottom: 200px
+        h1
+            font-size: 38px
+            padding-bottom: 30px
+        p
+            font-size: 18px
+            padding-bottom: 40px
+            color: #787878
+            line-height: 28px
+        a
+            font-size: 12px
+            text-transform: uppercase
+            color: #ffffff
+            background-color: #10c9c3
+            padding: 22px 45px
+            text-decoration: none
+#about
+    display: flex
+    flex-direction: column
+    .about-text
+        text-align: center
+        padding: 100px 0
+        h1
+            padding-bottom: 40px
+            font-size: 30px
+        p
+            padding-bottom: 35px
+            color: #787878
+    .skills
+        display: flex
+        .infogramma
+            background-color: #f8f9f9
+            width: 100%
+            padding-left: 7%
+            padding-bottom: 160px
+            padding-top: 160px
+            h1
+                padding-bottom: 40px
+                font-size: 30px
+            .list-skills
+                list-style: none
+                text-transform: uppercase
+                .list-item
+                    padding-bottom: 40px
+                    font-size: 12px
+                    .level
+                        height: 2px
+                        width: 500px
+                        margin-top: 20px
+                        background-color: #d8d8d8
+                        position: relative
+                    .level:before
+                        content: ''
+                        position: absolute
+                        top: 0
+                        left: 0
+                        height: 100%
+                        background-color: #10c9c3
+                    .level-75:before
+                        width: 75%
+                    .level-90:before
+                        width: 90%
+                    .level-65:before
+                        width: 65%
+
+        .picture
+            background-color: #e9e9e9
+            width: 100%
+            height: 623px
+    .our-info
+        display: flex
+        align-items: center
+        justify-content: space-around
+        padding: 100px 7%
+        background-color: #10c9c3
+        width: 100%
+        color: #ffffff
+        .box
+            display: flex
+            i
+                margin-right: 20px
+                font-size: 40px
+            span
+                text-transform: uppercase
+                font-size: 12px
+                line-height: 20px
+#work
+    display: grid
+    grid-template-columns: 25% 25% 25% 25%
+    .box
+        height: 300px
+        background-color: #dddddd
+        &:nth-child(2)
+            background-color: #838383
+        &:nth-child(4)
+            background-color: #838383
+        &:nth-child(5)
+            background-color: #838383
+        &:nth-child(7)
+            background-color: #838383
